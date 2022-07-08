@@ -1,10 +1,26 @@
 # Roomg-Attack
-Privacy invasion attacks that reconstruct real rooms through holes in virtual background.  
+Privacy invasion attack that reconstruct real rooms through holes in virtual background.  
 
 ## What is Roomg-Attack?
-
+Roomg-Attack is a privacy invasion attack that uses the instability of virtual background.
+Recently, COVID-19 has required us to work from home.
+The real background of the room is a treasure trove of information, the view outside the window identifies the location of our home, and the objects represent personality.
+To protect our privacy we use virtual background.
+This attack is an invasion of privacy by reconstructing the real background through the cracks in that virtual background.
 
 ## New attack surface
+We found that the holes in virtual background contain at least one pixel of information about the real background.
+The faster we move, the wider this hole gets, but no one in the world is paying attention.
+**This is 0day of the real world.**
+
+![img1](images/img1.png)  
+
+We manually collected and pieced together the red circles in the image. Fortunately we have many frames.
+The result was fabulous!
+We were able to reconstruct a real background.
+
+![img2](images/img2.png)  
+
 
 ## Automation algorithm
 
